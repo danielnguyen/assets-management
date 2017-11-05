@@ -1,0 +1,32 @@
+{
+  "name": "asset",
+  "plural": "assets",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string"
+    },
+    "asset_type": {
+      "type": "string",
+      "required": true
+    },
+    "date_added": {
+      "type": "date"
+    },
+    "date_last_updated": {
+      "type": "date"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
